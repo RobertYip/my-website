@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Robert Yip's Website</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <script defer src="jquery-3.4.1.min.js"></script>
+  <script defer src="bootstrap.bundle.min.js"></script>
+  <script defer src="common.js"></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <!-- Navbar Here -->
+    <div id="navigation-bar"></div>
+    <!-- End Navbar -->
+    <!-- Content -->
+    <section class="contents">
+      <h1>Data Analytics – Visualization of my vacation spending</h1>
+      <div class="paragraph">
+        <p>In 2018, I went to Japan for vacation with my friends Justin and Rebecca. While we were there, we kept track
+          of all our expenditures, mainly for cost-splitting. It later turned out to be a nice dataset to visualize.</p>
+
+        <p>For this project, I used R to clean the data and perform some simple visualizations; mainly because I was
+          taking a course on R at the time. It took me around 3 days to complete.
+        </p>
+
+        <p>Here’s a link to the <a href="https://github.com/RobertYip/R-Visualization-Japan-Trip">GitHub</a> for the
+          code including data cleaning. I purposely wrote in markdown format so that it is readable. After cleaning, we
+          can proceed to the visualizations that summarizes the data.</p>
+
+        <div class="img-center"><img src="img/DA01Raw-vs-Clean.png" class="article-img" alt="Splash image"></div>
+
+        <p>The first chart is a simple bar chart, dividing the categorized expenses among each member. Spending is
+          consistent among all 3 members, and we can see highest spending category is food followed by hotel.</p>
+        <div class="img-center"><img src="img/DA02Bar.png" class="article-img"
+            alt="Spending distribution in each category"></div>
+        <p>The next chart shows that Rebecca spends the most money. Each “chunk” in a category also shows the size of
+          the transaction. The small chunks illustrates many cheap transactions for food and the few large chunks
+          illustrate expensive transactions for hotel.</p>
+        <div class="img-center"><img src="img/DA03Chunk.png" class="article-img" alt="Who spent the most money"></div>
+        <p>The final chart is a boxplot that shows the cost averages for each category. The box highlights the
+          25th percentile, median, and 75th percentile. Hotel for example, cost on average 6000 yen but we also
+          splurged 22000 yen for one!</p>
+        <div class="img-center"><img src="img/DA04BoxPlot.png" class="article-img" alt="Amount per Transaction"></div>
+        <p>Thanks for reading.</p>
+      </div>
+    </section>
+    <div id="foot"></div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Robert Yip's Website</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <script defer src="jquery-3.4.1.min.js"></script>
+  <script defer src="bootstrap.bundle.min.js"></script>
+  <script defer src="common.js"></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <!-- Navbar Here -->
+    <div id="navigation-bar"></div>
+    <!-- End Navbar -->
+    <!-- Content -->
+    <section class="contents">
+      <h1>Product Development – Samples</h1>
+      <div class="paragraph">
+        <p>Currently, I lead the product development for PitchBook -- my current company’s fastest growing product. This
+          page shows
+          four major features delivered in 2019.</p>
+
+        <h2>General Layout</h2>
+
+        <p>The web platform was launched in early 2019 and shows the equity data of companies. Working with the
+          developers and UX designers, I wrote the technical specifications on the API and data feed that powers the
+          platform and the layout/categories. Parameters such as dates, report types, period ends, currency, units, and
+          other metadata were carefully determined to ensure the datapoints are selected appropriately. I also designed
+          the presentation layout so users can quickly navigate to the important items.</p>
+
+        <div class="img-center"><img src="img/PB01Main-CollapseExpand.png" class="article-img" alt="">
+        </div>
+        <h2>Drill Down</h2>
+        <p>Drill Down is the core value-added feature that differentiates PitchBook from its competitors. Clicking on a
+          number will show the calculation formula and inputs, which is highly invaluable for clients as it provides
+          data transparency. Inputs can also be further "drilled" to show the child-inputs used to determine the parent
+          value. </p>
+        <h2>Source Document Tagging</h2>
+        <div class="img-center"><img src="img/PB02Drilldown-capability.png" class="article-img" alt="">
+        </div>
+        <p>Clicking the little document icon to the right of the input in the previous image
+          (997,000) allows us to open the source document and highlight the value that was used. This allows the client
+          to perform their due diligence efficiently to ensure our data is correct and which financial report was used.
+          This was a huge breakthrough as I encountered various OCR issues in previous projects.</p>
+        <div class="img-center"><img src="img/PB03Drilldown-to-doc.png" class="article-img" alt=""></div>
+        <h2>LaTeX for Complicated Formulas</h2>
+        <p>The next part was a creative solution to handle complicated formulas. The calculation in the image is Degree
+          of Operating Leverage, which has a formula that has a fraction within a fraction. The left shows how it would
+          have looked if this feature is absent. Using a LaTeX library to render the formula, the display becomes much
+          more elegant.</p>
+        <div class="img-center"><img src="img/PB04Complex.png" class="article-img" alt=""></div>
+        <p>These are some major milestones that I have led the development on in 2019, and I am proud to have delivered
+          them. My experience in writing technical specifications and relationships with the developers have greatly
+          increased as a result. All in all, I am most thankful to the developers that worked tirelessly with me.</p>
+
+      </div>
+    </section>
+    <div id="foot"></div>
+  </div>
+</body>
+
+</html>

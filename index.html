@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Robert Yip's Website</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <script defer src="jquery-3.4.1.min.js"></script>
+  <script defer src="bootstrap.bundle.min.js"></script>
+  <script defer src="common.js"></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <!-- Navbar Here -->
+    <div id="navigation-bar"></div>
+    <!-- End Navbar -->
+    <!-- Content -->
+    <section class="contents">
+      <h1>Portfolio</h1>
+      <div class="paragraph">
+        <p>Welcome to my portfolio page! This website was built from scratch with HTML, CSS, Javascript, and Bootstrap.
+        </p>
+        <p><a id="btn-github" role="button" href="https://github.com/robertyip" target="_blank" ></a></p>
+      </div>
+    </section>
+    <div class="portfolio-section">
+      <section class="content-section">
+        <h3 class="section-title">Main Projects</h3>
+        <div class="section-body">
+          <div class="card">
+            <img class="img-thumbnail border" src="img/splash-pd.png" alt="Product Development">
+            <h4 class="card-title">Product Development</h4>
+            <p class="card-desc">Features I worked on in Pitchbook at my daytime job, a web platform valued at $225
+              million</p>
+            <a href="product-development.html" class="stretched-link" data-toggle="tooltip" data-placement="bottom"
+              title="See the features of a $225 million product"></a>
+          </div>
+          <div class="card">
+            <img class="img-thumbnail border" src="img/splash-sc.png" alt="Shopping Cart">
+            <h4 class="card-title">Shopping Cart</h4>
+            <p class="card-desc">DOM-manipulation, load items through JSON, and complete with Filter feature!</p>
+            <a href="shoppingCart/shoppingCart.html" class="stretched-link" data-toggle="tooltip"
+              data-placement="bottom" title="Find something for your valentine"></a>
+          </div>
+          <div class="card">
+            <img class="img-thumbnail border" src="img/splash-ff.png" alt="Fama and French Model">
+            <h4 class="card-title">Finance Model</h4>
+            <p class="card-desc">Used Python for regression analysis on the Fama and French model on two opposite
+              portfolio strategies</p>
+            <a href="https://github.com/RobertYip/Python-Fama-French-Quant-model" class="stretched-link"
+              data-toggle="tooltip" data-placement="bottom" title="Go to GitHub Directly"></a>
+          </div>
+        </div>
+      </section>
+      <section class="content-section">
+        <h3 class="section-title">Hobby Projects</h3>
+        <div class="section-body">
+          <div class="card">
+            <img class="img-thumbnail border" src="img/splash-cg.png" alt="Color Game">
+            <h4 class="card-title">Colour Game</h4>
+            <p class="card-desc">Followed tutorial on Javascript and DOM manipulation to create this</p>
+            <a href="colorGame/colorGame.html" class="stretched-link" data-toggle="tooltip" data-placement="bottom"
+              title="Try this game"></a>
+          </div>
+          <div class="card">
+            <img class="img-thumbnail" src="img/splash-da.png" alt="Data Analytics">
+            <h4 class="card-title">Data Analysis</h4>
+            <p class="cardDesc">Used R to visualize my expenses during a trip to Japan</p>
+            <a href="data-analysis-japan.html" class="stretched-link" data-toggle="tooltip" data-placement="bottom"
+              title="See colours and learn about Japan"></a>
+          </div>
+          <div class="card">
+            <img class="img-thumbnail" src="img/splash-ws.png" alt="Writing Sample">
+            <h4 class="card-title">Writing Sample</h4>
+            <p class="card-desc">A research report on Canada Goose's IPO</p>
+            <a href="writing-sample-canada-goose.html" class="stretched-link" data-toggle="tooltip"
+              data-placement="bottom" title="Read this Equity Research report"></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="foot"></div>
+  </div>
+</body>
+
+</html>

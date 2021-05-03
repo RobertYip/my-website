@@ -1,0 +1,53 @@
+<a name="top"></a>
+<nav class="navbar navbar-expand-sm navbar-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="img/Ry-Icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Robert Yip
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a id="btn-portfolio" class="nav-link" href="index.html" id="navbarDropdown" role="button" aria-haspopup="true"	
+                    aria-expanded="false">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <h6 class="dropdown-header">Main Projects</h6>
+                    <a class="dropdown-item" href="product-development.html">Product Development</a>
+                    <a class="dropdown-item" href="shoppingCart/shoppingCart.html">Shopping Cart</a>
+                    <a class="dropdown-item" href="https://github.com/RobertYip/Python-Fama-French-Quant-model">Finance Model</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">Hobby Projects</h6>
+                    <a class="dropdown-item" href="colorGame/colorGame.html.html">Guess the Colour</a>
+                    <a class="dropdown-item" href="data-analysis-japan.html">Data Analysis - Japan</a>
+                    <a class="dropdown-item" href="writing-sample-canada-goose.html">Writing Sample</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a id="btn-about" class="nav-link" href="about.html"></a>
+            </li>
+            <li class="nav-item">
+                <a id="btn-contact"class="nav-link" href="contact.html"></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<script>
+    jQuery(function ($) {
+        $('.navbar .dropdown').hover(function () {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
+
+        }, function () {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+        });
+
+        $('.navbar .dropdown > a').click(function () {
+            location.href = this.href;
+        });
+
+    });
+</script>
