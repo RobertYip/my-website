@@ -101,32 +101,6 @@ a.dropdown-item{
   border-radius: 5px;
 }
 
-#btn-github {
-  display: inline-block;
-  width: 128px;
-  height: 32px;
-  color: rgba(0,0,0,0);
-  /* font-size: 1.25rem;
-  font-weight: 200; */
-  /* background-color: #b5c9ff; */
-  background-image: url("img/btn_github1.png");
-  background-repeat:  no-repeat;
-  background-size: 100% auto;
-  border-radius: 0;
-  transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  /* text-align: center;
-  vertical-align: middle; */
-  padding: 0.5rem 1rem;
-  /* border: 1px solid rgba(0,0,0,.125); */
-  /* box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15); */
-  text-decoration: none;
-}
-
-#btn-github:hover, #btn-github:focus{
-  background-image: url("img/btn_github2.png");
-}
-
 #btn-portfolio{
   width: 128px;
   height: 32px;
@@ -158,7 +132,15 @@ a.dropdown-item{
   background-image: url("img/btn_contact2.png");
 }
 
-
+#btn-github{
+  width: 128px;
+  height: 32px;
+  margin: 4px;
+  background-image: url("img/btn_github1.png");
+}
+#btn-github:hover, #btn-github:focus{
+  background-image: url("img/btn_github2.png");
+}
 
 /* Portfolio contents */
 
